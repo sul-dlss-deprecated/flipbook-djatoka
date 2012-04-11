@@ -1,0 +1,130 @@
+/*
+ * Custom overrides for BookReader Demo.
+ */
+
+body {
+ background: #fff url('../su-images/body-bg.png') left top repeat-x;
+} 
+
+#logo-sulair {
+  background: transparent url('../su-images/logo-sulair.png') left top no-repeat;
+  height: 19px;
+  left: 20px;  
+  position: absolute;
+  top: 7px;
+  width: 88px;
+}
+
+#BookReader {
+  background: #fff url('../su-images/bookreader-bg.png') left top repeat-x;
+  margin: 32px 10px 5px 10px;
+}
+
+#BRtoolbar {
+  background: transparent url('../su-images/BRtoolbar_bg.png') left top repeat-x;
+  -webkit-box-shadow: 0 0 0 transparent;
+}
+
+#BRtoolbar .logo {
+  display: none;
+}
+
+#booksearch {
+  display: none;
+}
+
+#BRcontainer {
+  background-color: transparent;
+}
+
+#BRreturn a {
+  background: transparent url('../su-images/icon-raquo-title.png') left 2px no-repeat;
+  display: inline;
+  font-size: 1em;
+  margin-left: 10px;
+  padding-left: 15px;
+  text-decoration: none; 
+}
+
+div#BRpager {
+  margin-right: 20px;
+}
+
+
+#BRnav {
+  background: transparent url('../su-images/BRnav_bg.png') left top repeat-x;
+  -webkit-box-shadow: 0 0 0 transparent;
+}
+
+.BRicon {
+  background-image: url('../su-images/BRicons.png');  
+}
+
+#BRpageview {
+  background-color: transparent;
+}
+
+.BRnavCntl {
+  background-color: #ddd;
+}
+
+.BRup {
+  background-image: url('../su-images/nav_control-up.png');
+}
+.BRdn {
+  background-image: url('../su-images/nav_control-dn.png');
+}
+
+#BRpager .ui-slider-handle {
+  background: url('../su-images/slider.png');
+}
+
+div#BRnavline {
+  background-color: #999;
+  top: -20px;
+  margin: 0 20px 0 10px;  
+}
+
+.BRnavend {
+  background-color: #bbb;
+}
+
+div#BRpage {
+  display: none; /* hiding this since all page nav icons are moved up */
+}
+
+div#BRnavpos {
+  margin-right: 0;
+}
+
+div#pagenum {
+  border: 1px solid #888;
+  background-color: #fff;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  width: 50px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;    
+}
+
+div#pagenum span {  
+  color: #9f0d02;
+  font-style: normal;
+}
+
+.BRpagedivthumb {
+  background-color: #e0e0e0;
+}
+
+
+/* Hide print and embed functionality */
+#BRtoolbar .embed, .print {
+    display: none;
+}
+
+.BRpagediv1upImg {
+  left: 0;
+  position: absolute;
+  top: 0;
+}

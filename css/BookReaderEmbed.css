@@ -1,0 +1,26 @@
+/*
+ * Custom overrides for embedded bookreader.
+ */
+
+body { background-color: #666; background-image: none; }
+
+#BRtoolbar .label,.pageform,.play,.embed, #bookTitle {
+    display: none;
+}
+
+#BRtoolbar .title {
+   display: none;
+}
+
+#BRtoolbarbuttons {
+  margin-right: 3px;
+}
+
+#BRpageview {
+	background-color: #fbfbfb;
+}
+
+.BRicon { margin: 0; }
+
+#BookReader { margin: 0px; } 
+#logo-sulair { display: none; }
